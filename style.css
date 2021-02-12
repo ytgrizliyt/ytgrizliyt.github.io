@@ -1,10 +1,10 @@
 @font-face{
 	font-family: font1;
-	src: url("../fonts/1.ttf");
+	src: url("fonts/1.ttf");
 }
 @font-face{
 	font-family: font2;
-	src: url("../fonts/2.ttf");
+	src: url("fonts/2.ttf");
 }
 
 body{
@@ -161,22 +161,22 @@ body{
 #box2 .left .content1{
 	top: 0;
 	left: 0;
-	background-image: url("../img/20.jfif");
+	background-image: url("img/20.jfif");
 }
 #box2 .left .content2{
 	top: 0;
 	right: 0;
-	background-image: url("../img/21.jfif");	
+	background-image: url("img/21.jfif");	
 }
 #box2 .left .content3{
 	bottom: 0;
 	left: 0;
-	background-image: url("../img/22.jfif");
+	background-image: url("img/22.jfif");
 }
 #box2 .left .content4{
 	bottom: 0;
 	right: 0;
-	background-image: url("../img/23.jfif");
+	background-image: url("img/23.jfif");
 }
 #box2 .right .list{
 	width: 80%;
@@ -276,16 +276,16 @@ body{
 	transform: scale(1.2);
 }
 #box2 .left .content1 .bg{
-	background-image: url("../img/11.jpg");
+	background-image: url("img/40.jpg");
 }
 #box2 .left .content2 .bg{
-	background-image: url("../img/12.jpg");
+	background-image: url("img/41.jpg");
 }
 #box2 .left .content3 .bg{
-	background-image: url("../img/13.png");
+	background-image: url("img/42.png");
 }
 #box2 .left .content4 .bg{
-	background-image: url("../img/14.png");
+	background-image: url("img/44.jpg");
 }
 #box3{
 	border-color: #111;
