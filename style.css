@@ -1,0 +1,368 @@
+@font-face{
+	font-family: font1;
+	src: url("fonts/font1.ttf");
+}
+@font-face{
+	font-family: font2;
+	src: url("fonts/font2.otf");
+}
+@font-face{
+	font-family: font3;
+	src: url("fonts/font3.ttf");
+}
+body{
+	margin: 0;
+	font-size: 0;
+}
+#header{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #111;
+	z-index: 10000;
+}
+#header a{
+	text-decoration-line: none;
+}
+#header .logo-btn{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding: 5px;
+	height: 40px;
+}
+#header .logo{
+	height: 40px;
+	clip-path: circle(100%);
+	transition-duration: 1s;
+	transition-property: clip-path;
+}
+#header .logo-btn:hover .logo{
+	clip-path: circle(0%);
+}
+#header .logo2{
+	position: absolute;
+	height: 40px;
+	left: 5px;
+	top: 5px;
+	z-index: -1;
+}
+#header .btn{
+	font-family: font2;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	color: #ddd;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn:hover{
+	color: #974;
+}
+#header .btn .arr{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-color: #ddd;
+	clip-path: polygon(0% 20%, 50% 60%, 100% 20%, 100% 40%, 50% 80%, 0% 40%);
+	transition-duration: 200ms;
+	transition-property: background-color, clip-path;
+}
+#header .btn:hover .arr{
+	background-color: #974;
+	clip-path: polygon(0% 80%, 50% 40%, 100% 80%, 100% 60%, 50% 20%, 0% 60%);
+}
+#header .btn .submenu-btn{
+	position: relative;
+	padding: 10px;
+	height: 30px;
+	line-height: 30px;
+	color: #ddd;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn .submenu-btn:hover{
+	color: #974;
+}
+.box{
+	position: relative;
+}
+#box1{
+	/*Сюггпггис!*/
+}
+.box-img{
+	width: 100%;
+}
+
+#box1 .inner{
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	transform: translate(-25%, -50%);
+}
+.btn-pretty{
+	text-decoration-line: none;
+}
+.btn-pretty .btn-div{
+	font-family: font2;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	border: solid 2px #fed;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	text-shadow: 0 0 3px #000;
+	color: #fed;
+	font-size: 25px;
+	line-height: 25px;
+	height: 25px;
+	transition-duration: 200ms;
+	transition-property: padding margin;
+}
+.btn-pretty .btn-div:hover{
+	padding: 8px;
+	margin: 2px;
+}
+.btn-solid .btn-div{
+	border-color: #974;
+	background-color: #974;
+}
+.btn-slim .btn-div{
+	border-color: #fed;
+	background-color: transparent;
+}
+.btn-div .play{
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	background-color: #fed;
+	vertical-align: middle;
+	clip-path: polygon(20% 0%, 20% 0%, 100% 50%, 20% 100%, 20% 100%);
+	transition-duration: 200ms;
+	transition-property: clip-path;
+}
+.btn-div:hover .play{
+	clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+}
+#box6{
+	overflow-x: hidden;
+	background-color: #222;
+	text-align: center;
+}
+#box6-ifrm{
+	height: 720px;
+	width: 1280px;
+}
+#header .btn .submenu{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	border-radius: 5px;
+	min-width: 150px;
+	min-height: 100px;
+	background-color: rgba(0, 0, 0, 0.8);
+	transform: translateY(-50%) scaleY(0);
+	transition-duration: 200ms;
+	transition-property: transform
+
+}
+#header .btn:hover .submenu{
+	transform: translateY(0) scaleY(1);
+}
+#footer{
+	background-color: #111;
+	padding: 40px;
+	text-align: center;
+}
+#footer span{
+	margin: 15px;
+	font-size: 20px;
+	color: #aaa;
+	opacity: 1;
+	transition-duration: 200ms;
+	transition-property: opacity;
+}
+#footer a{
+	color: #aaa;
+	text-decoration: none;
+
+}
+#footer a:hover{
+	text-decoration-line: underline;
+}
+#s1:hover ~ #s2{
+	opacity: 0.5;
+}
+#s1:hover ~ #s3{
+	opacity: 0.5;
+}
+#s2:hover ~ #s3{
+	opacity: 0.5;
+}
+#box2{
+	padding: 50px;
+	background-color: #111;
+	text-align: center;
+}
+#box2 img.main{
+	height: 100px;
+}
+#box2 img.line{
+	height: 100px;
+}
+#box2 .m-block{
+	max-width: 600px;
+	margin: auto;
+	color: #fff;
+}
+#box2 .big{
+	font-family: font3;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+#box2 .small{
+	font-family: font1;
+	font-size: 25px;
+}
+#box2 .block{
+	display: inline-block;
+	max-width: 250px;
+	vertical-align: top;
+	color: #fff;
+}
+#box2 .block .big{
+	font-size: 30px;
+}
+#box2 .block .small{
+	font-size: 20px;
+}
+#box2 .block:nth-child(1){
+	font-family: font1;
+}
+#box2 .block:nth-child(2){
+	font-family: font2;
+}
+#box2 .block:nth-child(3){
+	font-family: font1;
+}
+#box3{
+	background-image: url("img/kart.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 50px;
+	background-color: #000;
+}
+#box3 .inner{
+	color: #fff;
+	max-width: 450px;
+}
+#box3 .inner .big{
+	font-size: 30px;
+	font-family: font3;
+}
+#box3 .inner .small{
+	font-size: 25px;
+	font-family: font1;
+}
+#box3 .cards{
+	width: 100%;
+}
+#box3 a{
+	text-decoration-line: none;
+}
+#box3 .cards .card{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(50% - 25px);
+}
+#box3 .cards .card1{
+	margin-right: 50px;
+}
+#box3 .card img{
+	width: 100%;
+}
+#box3 .card .text{
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	font-family: font1;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+#box4{
+	text-align: center;
+	background-image: url("img/kart1.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding: 50px;
+	background-color: #000;
+}
+#text4{
+	font-family: font1;
+	color: #fff;
+	font-size: 30px;
+}
+#box4 iframe{
+	margin: 50px;
+	height: 360px;
+	width: 640px;
+}
+#box5{
+	text-align: center;
+	background-color: #222;
+}
+#box5 .main-text{
+	padding: 50px;
+	font-size: 40px;
+	font-family: font1;
+	color: #fff;
+}
+#box5 .cards{
+
+}
+#box5 .cards .card{
+	vertical-align: top;
+	margin: 40px;
+	height: 640px;
+	width: 360px;
+	background-color: #282828;
+	box-shadow: 0 0 10px #000;
+	display: inline-block;
+	transition-property: box-shadow, transform ;
+	transition-duration: 500ms;
+	transition-delay: 100ms;
+	transition-timing-function: cubic-bezier(0, 1, 1, 1);
+}
+#box5 .cards .card:hover{
+	box-shadow: 0 0 20px #F0E68C;
+	transform: translateY(-15px);
+}
+#box5 .cards .card .img{
+	width: 100%;
+}
+#box5 .card .text{
+	padding: 20px;
+}
+#box5 .card .text .date{
+	font-family: font3;
+	font-size: 30px;
+	color: #F0E68C;
+}
+#box5 .card .text .big{
+	font-family: font2;
+	font-size: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#box5 .card .text .small{
+	font-family: font1;
+	font-size: 30px;
+	color: #fff;
+}
