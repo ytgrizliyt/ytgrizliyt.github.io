@@ -24,7 +24,7 @@ body{
 	background-color: #282828;
 	box-shadow: 0 0 10px #000;
 	display: inline-block;
-	transition-property: color, transform;
+	transition-property: box-shadow, transform;
 	transition-duration: 750ms;
 	transition-delay: 250ms;
 	transition-timing-function: cubic-bezier(0, 1, 1, 1);
@@ -33,11 +33,9 @@ body{
 }
 #but a:hover{
 	color: #00FF00;
-	transform: translateY(-15px);
 }
 #but:hover{
 	background-color: #FF0000;
-	transform: translateY(-15px);
 }
 #but a{
 	color: #fff;

@@ -89,6 +89,34 @@ body{
 #header .btn .submenu-btn:hover{
 	color: #974;
 }
+#header .btn .submenu-btn .inf a{
+	position: relative;
+	margin-right: 5px;
+	margin-left: -7px;
+	padding-top: -100px;
+	height: 30px;
+	text-align: center;
+	color: #5e5e5e;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn .submenu-btn .inf a:hover{
+	color: #dbdbdb;
+}
+#header .btn a{
+	position: relative;
+	margin-right: 5px;
+	margin-left: -6px;
+	padding: 10px;
+	height: 30px;
+	text-align: center;
+	color: #ddd;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn a:hover{
+	color: #974;
+}
 .box{
 	position: relative;
 }
@@ -190,7 +218,6 @@ body{
 #footer a{
 	color: #aaa;
 	text-decoration: none;
-
 }
 #footer a:hover{
 	text-decoration-line: underline;
