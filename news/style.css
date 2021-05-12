@@ -48,7 +48,7 @@ body{
 	top: 5px;
 	z-index: -1;
 }
-#header .btn{
+#header .btn a{
 	font-family: font2;
 	position: relative;
 	display: inline-block;
@@ -61,7 +61,7 @@ body{
 	transition-duration: 200ms;
 	transition-property: color;
 }
-#header .btn:hover{
+#header .btn a:hover{
 	color: #974;
 }
 #header .btn .arr{
@@ -77,7 +77,7 @@ body{
 	background-color: #974;
 	clip-path: polygon(0% 80%, 50% 40%, 100% 80%, 100% 60%, 50% 20%, 0% 60%);
 }
-#header .btn{
+/*#header .btn{
 	position: relative;
 	padding: 10px;
 	height: 30px;
@@ -88,8 +88,8 @@ body{
 }
 #header .btn:hover{
 	color: #974;
-}
-#header .btn .inf a{
+}*/
+/*#header .btn a{
 	position: relative;
 	margin-right: 5px;
 	margin-left: -6px;
@@ -102,7 +102,7 @@ body{
 }
 #header .btn a:hover{
 	color: #dbdbdb;
-}
+}*/
 #footer{
 	background-color: #111;
 	padding: 40px;
@@ -239,6 +239,6 @@ body{
 	padding-bottom: 15px;
 	opacity: 0.9;
 }
-#header .btn a{
+/*#header .btn a{
 	color: #ddd;
-}
+}*/
