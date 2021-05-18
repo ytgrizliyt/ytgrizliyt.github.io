@@ -13,7 +13,6 @@
 body{
 	margin: 0;
 	font-size: 0;
-	background-image: url(../img/media.jpg);
 }
 #header{
 	position: sticky;
